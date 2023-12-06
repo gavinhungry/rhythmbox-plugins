@@ -1,0 +1,9 @@
+[Plugin]
+Loader=python3
+Module=styled-toolbar
+IAge=2
+Name=Styled toolbar
+Description=Custom styles for Rhythmbox toolbar
+
+[RB]
+InitiallyEnabled=false
