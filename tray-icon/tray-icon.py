@@ -49,7 +49,7 @@ class TrayIcon(GObject.Object, Peas.Activatable):
     self.icon = Gtk.StatusIcon()
     self.icon.set_visible(False)
 
-    self.icon.set_from_icon_name('rhythmbox-panel')
+    self.icon.set_from_icon_name('rhythmbox-tray')
     self.icon.set_tooltip_text('Rhythmbox')
 
     self.icon.connect('activate', self.on_icon_click)
